@@ -1,0 +1,105 @@
+.wrapper .container .list-main .list-item {
+  padding: 0 0.32rem;
+  padding-top: 0.42666667rem;
+  border-bottom: 0.26666667rem solid #e6e6e6;
+}
+.wrapper .container .list-main .list-item .weibo-top {
+  height: 1.06666667rem;
+}
+.wrapper .container .list-main .list-item .weibo-top .left {
+  width: 1.06666667rem;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.wrapper .container .list-main .list-item .weibo-top .left .avatar {
+  width: 100%;
+  height: 100%;
+}
+.wrapper .container .list-main .list-item .weibo-top .right {
+  width: 0;
+  flex-grow: 1;
+  align-items: center;
+}
+.wrapper .container .list-main .list-item .weibo-top .right .text-box {
+  width: 100%;
+  padding-left: 0.32rem;
+}
+.wrapper .container .list-main .list-item .weibo-top .right .text-box .title {
+  line-height: 0.56rem;
+  font-size: 0.4rem;
+  color: #333;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.wrapper .container .list-main .list-item .weibo-top .right .text-box .desc {
+  line-height: 0.42666667rem;
+  font-size: 0.32rem;
+  color: #939393;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.wrapper .container .list-main .list-item .weibo-main {
+  padding-top: 0.21333333rem;
+}
+.wrapper .container .list-main .list-item .weibo-main .weibo-text {
+  font-size: 0.4rem;
+  padding-bottom: 0.32rem;
+}
+.wrapper .container .list-main .list-item .weibo-main .weibo-imgs {
+  font-size: 0;
+  overflow: hidden;
+  padding-bottom: 0.21333333rem;
+}
+.wrapper .container .list-main .list-item .weibo-main .weibo-imgs .li {
+  display: inline-block;
+  width: 33.333%;
+  padding: 0 0.05333333rem;
+  vertical-align: top;
+  padding-bottom: 0.10666667rem;
+}
+.wrapper .container .list-main .list-item .weibo-main .weibo-imgs .li .square {
+  padding-bottom: 100%;
+  height: 0;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.wrapper .container .list-main .list-item .weibo-main .weibo-imgs .li .img-item {
+  width: 100%;
+  object-fit: cover;
+  z-index: 0;
+  height: 100%;
+  position: absolute;
+}
+.wrapper .container .list-main .list-item .weibo-footer {
+  height: 0.90666667rem;
+  border-top: 0.02666667rem solid #e6e6e6;
+  align-items: center;
+}
+.wrapper .container .list-main .list-item .weibo-footer .footer-ctrl {
+  flex-grow: 1;
+  justify-content: center;
+}
+.wrapper .container .list-main .list-item .weibo-footer .footer-ctrl .forward_ctrl {
+  padding-left: 0.53333333rem;
+  background: url("../image/list/forward_icon.png") no-repeat left center;
+  background-size: 0.42666667rem 0.42666667rem;
+}
+.wrapper .container .list-main .list-item .weibo-footer .footer-ctrl .comment_ctrl {
+  padding-left: 0.53333333rem;
+  background: url("../image/list/comment_icon.png") no-repeat left center;
+  background-size: 0.42666667rem 0.42666667rem;
+}
+.wrapper .container .list-main .list-item .weibo-footer .footer-ctrl .praise_ctrl {
+  padding-left: 0.53333333rem;
+  background: url("../image/list/not_praise_icon.png") no-repeat left center;
+  background-size: 0.42666667rem 0.42666667rem;
+}
+.wrapper .container .list-main .list-item .weibo-footer .footer-ctrl .active {
+  padding-left: 0.53333333rem;
+  background: url("../image/list/has_praise_icon.png") no-repeat left center;
+  background-size: 0.42666667rem 0.42666667rem;
+}
