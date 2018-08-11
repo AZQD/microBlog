@@ -1,7 +1,7 @@
-@rem:37.5rem;
+@rem: 37.5rem;
 
 body {
-  
+
 }
 
 .placeholder-color (@color: #999) {
@@ -18,36 +18,37 @@ body {
     color: @color;
   }
 }
-@bottomHeight:42/@rem;
 
-.wrapper{
-  .container{
-    .detail-main{
+@bottomHeight: 42/@rem;
+
+.wrapper {
+  .container {
+    .detail-main {
       padding-bottom: @bottomHeight;
-      .detail-info{
+      .detail-info {
         padding: 0 12/@rem;
         padding-top: 16/@rem;
         border-bottom: 10/@rem solid #e6e6e6;
-        .weibo-top{
+        .weibo-top {
           height: 40/@rem;
-          .left{
+          .left {
             width: 40/@rem;
             height: 100%;
             border-radius: 50%;
             overflow: hidden;
-            .avatar{
+            .avatar {
               width: 100%;
               height: 100%;
             }
           }
-          .right{
+          .right {
             width: 0;
             flex-grow: 1;
             align-items: center;
-            .text-box{
+            .text-box {
               width: 100%;
               padding-left: 12/@rem;
-              .title{
+              .title {
                 line-height: 21/@rem;
                 font-size: 15/@rem;
                 color: #333;
@@ -55,7 +56,7 @@ body {
                 overflow: hidden;
                 text-overflow: ellipsis;
               }
-              .desc{
+              .desc {
                 line-height: 16/@rem;
                 font-size: 12/@rem;
                 color: #939393;
@@ -66,30 +67,30 @@ body {
             }
           }
         }
-        .weibo-main{
+        .weibo-main {
           padding-top: 8/@rem;
-          .weibo-text{
+          .weibo-text {
             font-size: 15/@rem;
             padding-bottom: 12/@rem;
           }
-          .weibo-imgs{
+          .weibo-imgs {
             font-size: 0;
             overflow: hidden;
             padding-bottom: 8/@rem;
-            .li{
+            .li {
               display: inline-block;
               width: 33.333%;
               padding: 0 2/@rem;
               vertical-align: top;
               padding-bottom: 4/@rem;
-              .square{
+              .square {
                 padding-bottom: 100%;
                 height: 0;
                 position: relative;
                 display: inline-block;
                 width: 100%;
               }
-              .img-item{
+              .img-item {
                 width: 100%;
                 object-fit: cover;
                 z-index: 0;
@@ -100,36 +101,36 @@ body {
           }
         }
       }
-      .ctrl-box{
-        .menu{
+      .ctrl-box {
+        .menu {
           line-height: 40/@rem;
           padding: 0 12/@rem;
           color: #666;
           font-size: 14/@rem;
           overflow: hidden;
           border-bottom: 1/@rem solid #e6e6e6;
-          .tab-item{
+          .tab-item {
             display: inline-block;
             border-bottom: 2/@rem solid transparent;
           }
-          .forward{
+          .forward {
             margin-right: 24/@rem;
           }
-          .comment{
+          .comment {
           }
-          .praise{
+          .praise {
             float: right;
           }
-          .active{
+          .active {
             color: #000;
             border-bottom: 2/@rem solid #F99A02;
           }
         }
-        .showList{
-          .forward_list{
-            .item{
+        .showList {
+          .forward_list {
+            .item {
               position: relative;
-              .avatar{
+              .avatar {
                 position: absolute;
                 left: 12/@rem;
                 top: 10/@rem;
@@ -137,37 +138,37 @@ body {
                 height: 32/@rem;
                 border-radius: 50%;
               }
-              .content{
+              .content {
                 margin-left: 52/@rem;
                 padding-right: 12/@rem;
                 border-bottom: 1/@rem solid #e6e6e6;
-                .userName{
+                .userName {
                   color: #333;
                   font-size: 12/@rem;
                   padding-top: 8/@rem;
                 }
-                .action{
+                .action {
                   color: #000;
                   font-size: 14/@rem;
                   line-height: 20/@rem;
                 }
-                .date{
+                .date {
                   font-size: 11/@rem;
                   color: #999;
                   padding: 6/@rem 0;
                 }
               }
             }
-            .item:last-child{
-              .content{
+            .item:last-child {
+              .content {
                 border-bottom: 0;
               }
             }
           }
-          .comment_list{
-            .item{
+          .comment_list {
+            .item {
               position: relative;
-              .avatar{
+              .avatar {
                 position: absolute;
                 left: 12/@rem;
                 top: 10/@rem;
@@ -175,48 +176,48 @@ body {
                 height: 32/@rem;
                 border-radius: 50%;
               }
-              .content{
+              .content {
                 margin-left: 52/@rem;
                 padding-right: 12/@rem;
                 border-bottom: 1/@rem solid #e6e6e6;
-                .userName{
+                .userName {
                   color: #333;
                   font-size: 12/@rem;
                   padding-top: 8/@rem;
                 }
-                .speak{
+                .speak {
                   color: #000;
                   font-size: 14/@rem;
                   line-height: 20/@rem;
                 }
-                .ctrl{
+                .ctrl {
                   font-size: 11/@rem;
                   color: #999;
                   padding: 6/@rem 0;
-                  .date{
+                  .date {
                     flex-grow: 1;
                   }
-                  .btns{
+                  .btns {
                     align-items: center;
-                    .icon{
+                    .icon {
                       padding-left: 20/@rem;
                       display: inline-block;
                       margin-right: 20/@rem;
                       height: 16/@rem;
                       line-height: 16/@rem;
                     }
-                    .icon:last-child{
+                    .icon:last-child {
                       margin-right: 0;
                     }
-                    .forward_ctrl{
+                    .forward_ctrl {
                       background: url("../image/list/forward_icon.png") no-repeat left center;
                       background-size: 16/@rem 16/@rem;
                     }
-                    .comment_ctrl{
+                    .comment_ctrl {
                       background: url("../image/list/comment_icon.png") no-repeat left center;
                       background-size: 16/@rem 16/@rem;
                     }
-                    .praise_ctrl{
+                    .praise_ctrl {
                       background: url("../image/list/not_praise_icon.png") no-repeat left center;
                       background-size: 16/@rem 16/@rem;
                     }
@@ -224,16 +225,16 @@ body {
                 }
               }
             }
-            .item:last-child{
-              .content{
+            .item:last-child {
+              .content {
                 border-bottom: 0;
               }
             }
           }
-          .praise_list{
-            .item{
+          .praise_list {
+            .item {
               position: relative;
-              .avatar{
+              .avatar {
                 position: absolute;
                 left: 12/@rem;
                 top: 10/@rem;
@@ -241,30 +242,30 @@ body {
                 height: 32/@rem;
                 border-radius: 50%;
               }
-              .content{
+              .content {
                 margin-left: 52/@rem;
                 padding-right: 12/@rem;
                 align-items: center;
                 border-bottom: 1/@rem solid #e6e6e6;
-                .left{
+                .left {
                   flex-grow: 1;
-                  .userName{
+                  .userName {
                     color: #333;
                     font-size: 14/@rem;
                     padding-top: 8/@rem;
                   }
-                  .speak{
+                  .speak {
                     color: #999;
                     font-size: 12/@rem;
                     line-height: 20/@rem;
                     padding-bottom: 8/@rem;
                   }
                 }
-                .right{
+                .right {
                   font-size: 12/@rem;
                   height: 100%;
                   align-items: center;
-                  .has_praise{
+                  .has_praise {
                     display: inline-block;
                     width: 18/@rem;
                     height: 18/@rem;
@@ -276,8 +277,8 @@ body {
                 }
               }
             }
-            .item:last-child{
-              .content{
+            .item:last-child {
+              .content {
                 border-bottom: 0;
               }
             }
@@ -285,7 +286,7 @@ body {
         }
       }
 
-      .weibo-footer{
+      .weibo-footer {
         position: fixed;
         left: 0;
         bottom: 0;
@@ -295,32 +296,32 @@ body {
         background-color: #fff;
         border-top: 1/@rem solid #e6e6e6;
         align-items: center;
-        .footer-ctrl{
+        .footer-ctrl {
           flex-grow: 1;
           justify-content: center;
           border-right: 1/@rem solid #e6e6e6;
-          .forward_ctrl{
+          .forward_ctrl {
             padding-left: 24/@rem;
             background: url("../image/list/forward_icon.png") no-repeat left center;
             background-size: 16/@rem 16/@rem;
           }
-          .comment_ctrl{
+          .comment_ctrl {
             padding-left: 24/@rem;
             background: url("../image/list/comment_icon.png") no-repeat left center;
             background-size: 16/@rem 16/@rem;
           }
-          .praise_ctrl{
+          .praise_ctrl {
             padding-left: 24/@rem;
             background: url("../image/list/not_praise_icon.png") no-repeat left center;
             background-size: 16/@rem 16/@rem;
           }
-          .active{
+          .active {
             padding-left: 24/@rem;
             background: url("../image/list/has_praise_icon.png") no-repeat left center;
             background-size: 16/@rem 16/@rem;
           }
         }
-        .footer-ctrl:last-child{
+        .footer-ctrl:last-child {
           border-right: 0;
         }
       }
